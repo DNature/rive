@@ -2,9 +2,9 @@
 
 I was just checking some random videos on **YouTube** then i found **Rive.** I created a free account and also created a new project. However, I wasn't satisfied due to a lot of reasons but i'll just mention few.
 
-- Performance
-- It doesn't have a desktop version.
-- Missing some UI/UX Designs/functionalities 
+- [Performance](#user-content-performance)
+- [It doesn't have a desktop version](#user-content-desktop-version).
+- [Missing some UI/UX Designs/functionalities](#user-content-uiux)
   
 ## Performance
 It was a little bit slow so i made a performance test and the result wasn't good on a 3G network:
