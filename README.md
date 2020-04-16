@@ -4,9 +4,10 @@ I was just checking some random videos on **YouTube** then i found **Rive.** I c
 
 - [Performance](#performance)
 - [It doesn't have a desktop version](#desktop-version).
-- [Missing some UI/UX Designs/functionalities](#uiux)
-  
+- [Missing some UI/UX Designs/functionalities](#uiux).
+
 ## Performance
+
 It was a little bit slow so i made a performance test and the result wasn't good on a 3G network:
 
 ![Performance test result](/images/per-test.png)
@@ -21,6 +22,7 @@ and i'm not the only one with the same problem.
 I thought it would be nice to have a desktop application for this project which is going to improve a lot of things like performance, etc. So i decided to make a desktop application wrapper for **Rive** which can you can try out using the following steps:
 
 Clone this repository into your local machine by running:
+
 ```bash
 git clone git@github.com:DNature/rive.git
 ```
@@ -33,7 +35,8 @@ npm install
 yarn install
 ```
 
-You can now boot up the application by running 
+You can now boot up the application by running
+
 ```
 npm run dev
     # or
@@ -46,25 +49,25 @@ This is the current state of the desktop version.
 ## UI/UX
 
 - It would be nice to have a **Hamburger menu**:
--  
-  ![](images/menu.png)
-  ![](images/build.png)
+-
 
+![](images/menu.png)
+![](images/build.png)
 
 - Users can now create a new file by clicking on the plus **&plus;** icon:
   ![](images/new-rive.png)
 
+* It would be nice to have a **back** and **fort** arrow to enable a user navigate through pages quickly. However, this feature would be required in the desktop version.
 
-- It would be nice to have a **back** and **fort** arrow to enable a user navigate through pages quickly. However, this feature would be required in the desktop version.
-
-- Finally, it's great to know the state of an application when navigating through pages. implementing a progress bar will be great. Here is an example
+* Finally, it's great to know the state of an application when navigating through pages. implementing a progress bar will be great. Here is an example
   ![](images/progress.png)
 
-
 ## Summary.
-There're a lot of features that when implemented it would really improve user experience of the app.
+
+There're a lot of features that when implemented it would really improve user experience of the app like shortcut keys etc.
 
 This is just a demo project and can be improved in many ways.
+
 ## However, **DONE IS BETTER THAN PERFECT.**
 
 Feel free to correct me wherever i'm wrong 🙂
